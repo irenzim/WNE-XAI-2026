@@ -38,6 +38,29 @@ conda activate xai-env-2026
 pip install -r requirements.txt
 ```
 
+--- 
+
+## Separate env for Alibi package 
+
+1. Create a new conda environment: 
+```bash 
+conda create -n xai-env-2026-alibi python=3.12
+```
+
+2. Activate the environment: 
+```bash
+conda activate xai-env-2026-alibi
+```
+
+3. pip install -r requirements.txt
+```bash 
+pip install -r requirements_alibi.txt
+```
+
+
+
+
+
 ## 📌 Author
 Irena Zimovska
 [i.zimovska@uw.edu.pl]
