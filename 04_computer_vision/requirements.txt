@@ -1,0 +1,7 @@
+torch==2.7.0
+torchvision==0.22.0
+optuna==4.3.0
+captum==0.8.0
+lime==0.2.0.1
+shap==0.47.2
+ipykernel==6.29.5
